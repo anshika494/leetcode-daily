@@ -12,6 +12,6 @@ public:
                 blank++;
         }
 
-        return abs(R - L) + blank;        
+        return abs(R - L) + blank;     
     }
 };
