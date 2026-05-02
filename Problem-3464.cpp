@@ -9,6 +9,7 @@ public:
                 return x;
             if (x == side)
                 return (long long)side + y;
+            
             if (y == side)
                 return 2LL * side + (side - x);
             return 3LL * side + (side - y);
